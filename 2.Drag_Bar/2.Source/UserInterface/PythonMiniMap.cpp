@@ -1,3 +1,9 @@
+//Add:
+#ifdef ENABLE_FOV_OPTION
+#include "PythonSystem.h"
+#endif
+
+
 //Search:
 
 void CPythonMiniMap::Update(float fCenterX, float fCenterY)
